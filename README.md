@@ -1,2 +1,2 @@
-# genAI
-Projetos gerais de genAI
+# Projetos gerais de genAI
+usando gitmodels
