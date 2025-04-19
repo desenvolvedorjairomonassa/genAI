@@ -1,3 +1,6 @@
+
+# agent AI que classifica a mensagens de adolescentes sobre assédio À uma criança e adolescente de um adulto, 
+# se passando por criança, e verificasse se é ou não uma conversa de assédio.
 import os
 from dotenv import load_dotenv
 from openai import OpenAI
