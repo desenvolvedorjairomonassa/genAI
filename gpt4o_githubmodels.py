@@ -19,7 +19,7 @@ with open(caminho_arquivo, "r", encoding="utf-8") as file:
 
 response = client.complete(
     messages=[
-        SystemMessage(content="Você é um assistente que vai verificar a conversa entre adolescentes é sobre cometer suicídio. Classifique assim como alerta sucídio ou não alerta suicídio."),
+        SystemMessage(content="Você é um assistente que vai verificar a conversa entre adolescentes sobre cometer suicídio. Classifique assim como alerta sucídio ou não alerta suicídio."),
         UserMessage(content=mensagens),
     ],
     model=os.getenv("GITHUB_MODEL", "gpt-4o"),
