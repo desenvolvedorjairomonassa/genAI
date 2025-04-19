@@ -7,7 +7,7 @@ from azure.core.credentials import AzureKeyCredential
 load_dotenv()
 client = ChatCompletionsClient(
     endpoint="https://models.inference.ai.azure.com",
-    credential=AzureKeyCredential(os.environ["GITHUB_TOKEN"]),
+    credential=AzureKeyCredential(os.getenv("GITHUB_TOKEN")),
 )
 # Obtém o diretório do script atual
 diretorio_atual = os.path.dirname(os.path.abspath(__file__))
