@@ -6,7 +6,7 @@ Este repositório contém projetos diversos relacionados a genAI (Inteligência 
 
 ## 📂 Projetos
 
-### 1. Classificação de Mensagens: Risco de Suicídio
+### 1. Classificação de Mensagens: Risco de Suicídio (gpt4o_githubmodels.py)
 Identifica se uma mensagem é classificada como **risco de suicídio** ou **não risco de suicídio**.
 
 #### 📌 Descrição
